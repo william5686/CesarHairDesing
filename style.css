@@ -1,0 +1,122 @@
+* {
+	font-family: "Gill Sans", sans-serif;
+}
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	transform: translateX(-50%) translateY(-50%);
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand span {
+	color: #1977cc;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: .3;
+	background: #fff;
+}
+.navbar .appbtn {
+	background: #ee0707;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	line-height: 2.3;
+}
+.carousel-item {
+	height: 108vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.8;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ee0707;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 1;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center
+	}
+	.carousel-caption {
+		bottom: 165px
+	}
+	.carousel-caption h5 {
+		font-size: 16px
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 14px
+	}
+	.navbar .appbtn {
+		display: none;
+	}
+}
+
+footer{
+    background-color: black;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#once{
+    height: 383px;
+    object-fit: cover;
+}
