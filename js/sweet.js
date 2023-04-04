@@ -35,6 +35,7 @@ function serve(){
       'select one of our services' +
       '<p><a href="./for_her.html">For Her</a></p>' +
       '<p><a href="./for_him.html">For Him</a></p>'+
+      '<p><a href="./vid.html">Reels</a></p>'+
       '<p><a href="#" onclick="weddings()">Weddings</a></p>',
     showCloseButton: true,
     showCancelButton: true,
@@ -57,6 +58,7 @@ function serve_es(){
       'Selecciona uno de nuestros servicios' +
       '<p><a href="./For_her_es.html">Para ella</a></p>' +
       '<p><a href="./for_him_es.html">Para el</a></p>'+
+      '<p><a href="./vid.html">Reels</a></p>'+
       '<p><a href="#" onclick="weddings_es()">Bodas</a></p>',
     showCloseButton: true,
     showCancelButton: true,
