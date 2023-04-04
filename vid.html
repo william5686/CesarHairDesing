@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Reels</title>
+    <link rel="stylesheet" href="./vid.css">
+    <link rel="stylesheet" href="./floatbuttom.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./assets/favicon.ico">
+</head>
+<body>
+    <a href="./index.html" class="btn-wsp" >
+	    <i class="fa fa-home"></i>
+	</a>
+    <div class="container">
+        <video src="./assets/videos/Cesar reel 1.mp4" class="slider" autoplay loop muted controls></video>
+
+        <ul>
+            <li onclick="videoslider('./assets/videos/Cesar reel 23.mp4')"><video src="./assets/videos/Cesar reel 23.mp4"></video></li>
+            <li onclick="videoslider('./assets/videos/Cesar reel 10.mp4')"><video src="./assets/videos/Cesar reel 10.mp4"></video></li>
+            <li onclick="videoslider('./assets/videos/Cesar reel 11.mp4')"><video src="./assets/videos/Cesar reel 11.mp4"></video></li>
+            <li onclick="videoslider('./assets/videos/Cesar reel 13.mp4')"><video src="./assets/videos/Cesar reel 13.mp4"></video></li>
+            <li onclick="videoslider('./assets/videos/Cesar reel 17.mp4')"><video src="./assets/videos/Cesar reel 17.mp4"></video></li>
+        </ul>
+    </div>
+
+
+    <script>
+
+        function videoslider(links){
+            document.querySelector(".slider").src = links;
+        }
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+	<script src="./js/sweet.js"></script>
+
+</body>
+</html>
